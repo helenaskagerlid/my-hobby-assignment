@@ -1,4 +1,4 @@
-:root {
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -93,4 +93,42 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(185, 159, 196);
+}
+
+h1 {
+  font-family: 'Bitter', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: white;
+  height: 200px;
+  width: 200px;
+  clip-path: circle(50% at 50% 50%);
+  text-align: center;
+  line-height: 200px;
+}
+.rainbow-effect {
+  transition: background-color 3s;
+  cursor: pointer;
+  max-width: 500px;
+
+  &:hover {
+    animation: rainbow-animation 3s infinite;
+  }
+}
+
+@keyframes rainbow-animation {
+  100% { background-color: rgb(164, 164, 216);  }
+  16.67% { background-color: rgb(143, 130, 179); }
+  33.33% { background-color:  rgb(163, 129, 188); }
+  50% { background-color: rgb(140, 75, 140); }
+  66.67% { background-color: rgb(199, 125, 179); }
+  83.33% { background-color: rgb(212, 151, 210);}
+  100% { background-color: rgb(214, 177, 235); }
 }
