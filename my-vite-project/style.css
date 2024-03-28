@@ -107,6 +107,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(185, 159, 196);
+  min-height: 100vh;
+  background-image: url(/my-vite-project/public/assets/pexels-andrea-davis-3653849.jpg);
+  padding: 0 35px;
 }
 
 h1 {
@@ -120,6 +123,7 @@ h1 {
   text-align: center;
   line-height: 200px;
 }
+
 .rainbow-effect {
   transition: background-color 5s;
   cursor: pointer;
@@ -138,4 +142,50 @@ h1 {
   66.67% { background-color: rgb(199, 125, 179); }
   83.33% { background-color: rgb(212, 151, 210);}
   100% { background-color: rgb(214, 177, 235); }
+}
+
+.gallery .gallery-container {
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  height: 46px;
+  width: 46px;
+  line-height: 46px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery {
+  max-width: 1200px;
+  position: relative;
+}
+
+.gallery .material-symbols-outlined:first-child {
+  left: -23px;
+}
+
+.gallery .material-symbols-outlined:last-child {
+  right: -23px;
+}
+
+.gallery-container img {
+  height: 340px;
+  object-fit: cover;
+  margin-left: 14px;
+  width: calc(100%/3);
+
+}
+
+.gallery-container img:first-child {
+  margin-left: 0px;
+
 }
