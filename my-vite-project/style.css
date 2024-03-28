@@ -189,3 +189,15 @@ h1 {
   margin-left: 0px;
 
 }
+
+@media  screen and (max-width: 900px) {
+  .gallery-container img {
+    width: calc(100%/2);
+  }
+}
+
+@media  screen and (max-width: 550px) {
+  .gallery-container img {
+    width: calc(100%);
+  }
+}
