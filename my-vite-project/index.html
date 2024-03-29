@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <title>My hobby</title>
 </head>
@@ -10,24 +11,35 @@
     <h1 class="rainbow-effect" id="heading">My hobby</h1>
 
     <section id="gallery" class="gallery">
-        <div class="gallery-container">
-            <span><img 
+        <span class="material-symbols-outlined arrow-icons" id="arrowLeft">arrow_back_ios</span>
+        <div class="gallery-container" id="galleryContainer">
+            <img 
                 src="./public/assets/pexels-andrea-davis-3653849.jpg" 
                 alt=""
-                width="300px"
-                height="400px"></span>
-            <span><img 
+                class="img">
+            <img 
                 src="./public/assets/pexels-taryn-elliott-4112236(1).jpg" 
                 alt=""
-                width="300px"
-                height="400px"></span>
-            <span><img 
+                class="img">
+            <img 
                 src="./public/assets/pexels-tatiana-syrikova-3933240.jpg" 
                 alt=""
-                width="300px"
-                height="400px"></span>
+                class="img">
+            <img 
+                src="./public/assets/pexels-andrea-davis-3653849.jpg" 
+                alt=""
+                class="img">
+            <img 
+                src="./public/assets/pexels-taryn-elliott-4112236(1).jpg" 
+                alt=""
+                class="img">
+            <img 
+                src="./public/assets/pexels-tatiana-syrikova-3933240.jpg" 
+                alt=""
+                class="img">
         </div>
+        <span id="arrowRight" class="material-symbols-outlined arrow-icons">arrow_forward_ios</span>
     </section>
-    
+    <script src="main.js" type="module" defer></script>
 </body>
 </html>
