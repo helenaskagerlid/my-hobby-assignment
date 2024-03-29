@@ -1,15 +1,16 @@
 import './style.css'
 
-const rainbowEffect = document.querySelector('.rainbow-effect');
+//const rainbowEffect = document.querySelector('.rainbow-effect');
 const gallery = document.querySelector(".gallery-container");
 
+/*
 rainbowEffect.addEventListener('mouseenter', () => {
   rainbowEffect.style.animation = 'rainbow-animation 15s infinite';
 });
 
 rainbowEffect.addEventListener('mouseleave', () => {
   rainbowEffect.style.animation = 'none';
-});
+}); */
 
 let isDragStart = false;
 
@@ -43,7 +44,5 @@ arrowRight.addEventListener("click", () => {
     behavior: "smooth" 
   });
 });
-
-
 
 console.log("hej");
