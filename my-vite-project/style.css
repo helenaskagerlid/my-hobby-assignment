@@ -106,7 +106,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(185, 159, 196);
+  background-color:rgb(230, 165, 118);
   min-height: 100vh;
   background-image: url(/my-vite-project/public/assets/pexels-andrea-davis-3653849.jpg);
   padding: 0 35px;
@@ -122,6 +122,7 @@ h1 {
   clip-path: circle(50% at 50% 50%);
   text-align: center;
   line-height: 200px;
+  background-color: rgb(255, 204, 188); /* Persika */
 }
 
 .rainbow-effect {
@@ -135,13 +136,13 @@ h1 {
 }
 
 @keyframes rainbow-animation {
-  100% { background-color: rgb(164, 164, 216);  }
-  16.67% { background-color: rgb(143, 130, 179); }
-  33.33% { background-color:  rgb(163, 129, 188); }
-  50% { background-color: rgb(140, 75, 140); }
-  66.67% { background-color: rgb(199, 125, 179); }
-  83.33% { background-color: rgb(212, 151, 210);}
-  100% { background-color: rgb(214, 177, 235); }
+  0% { background-color: rgb(255, 204, 188); } 
+  16.67% { background-color: rgb(255, 192, 203); } 
+  33.33% { background-color:  rgb(201, 134, 157); } 
+  50% { background-color: rgb(250, 190, 189); } 
+  66.67% { background-color: rgb(255, 218, 185); } 
+  83.33% { background-color: rgb(255, 192, 203); }
+  100% { background-color: rgb(221, 135, 164); } 
 }
 
 .gallery .gallery-container {
